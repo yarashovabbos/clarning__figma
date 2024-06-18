@@ -1,0 +1,120 @@
+.tetil{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tetil h2{
+    width: 475px;
+        height: 58px;
+        top: 42px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 48px;
+            font-weight: 700;
+            color: #211F54;
+            line-height: 57.98px;
+            text-align: left;
+}
+.tetil .tetil__btn {
+    width: 214px;
+        height: 73px;
+        gap: 0px;
+        border-radius: 14px;
+        border: 1px solid #EFF0F6;
+        box-shadow: 0px 0px 6px 6px #14142B0A;
+        font-size: 20px;
+        opacity: 0px;
+}
+.tetil .tetil__btn:hover {
+    width: 214px;
+    height: 73px;
+    gap: 0px;
+    cursor: pointer;
+    color: white;
+    transition: 0.8s;
+    border-radius: 14px;
+    background: #0075FF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 0px 10px 10px #25254e0a;
+
+    opacity: 0px;
+}
+.tetil p{
+    width: 136px;
+        height: 20px;
+        top: 26px;
+        left: 39px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            color: #211F54;
+}
+.servis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+.servis .ser{
+    width: 388px;
+        height: 500px;
+        gap: 0px;
+        border-radius: 16px ;
+       
+        opacity: 0px;
+        border: 1px solid #EFF0F6;
+        box-shadow: 0px 0px 6px 6px #14142B0A;
+}
+.servis .ser:hover {
+    width: 388px;
+    height: 500px;
+    gap: 0px;
+    border-radius: 16px ;
+    cursor: pointer;
+    opacity: 0px;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 0px 15px 15px #14142B0A;
+}
+
+.servis .ser img {
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.servis .ser h5 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.01px;
+        text-align: center;
+        color: #211F54; 
+   
+}
+
+.servis .ser p {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 40px;
+     width: 312px;
+    height: 121px;
+    top: 344px;
+    left: 38px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30.01px;
+        color:#6E7191;
+}

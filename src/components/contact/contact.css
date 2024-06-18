@@ -1,0 +1,214 @@
+.contact{
+    margin-top: 100px;
+    width: 100%;
+        height: 1151px;
+        top: -9px;
+        left: -2px;
+        gap: 0px;
+        opacity: 0px;
+        background: #F7F9FC;
+}
+.con{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px; */
+}
+
+.con h2{
+    margin-top: 0px;
+    width: 481px;
+        height: 58px;
+        top: 34px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 57.98px;
+            text-align: left;
+            color: #211F54;
+}
+.con__p{
+    margin-top: 30px;
+     width: 484px;
+    height: 91px;
+    top: 124.44px;
+    gap: 0px;
+    opacity: 0px;
+        font-family: Roboto;
+            font-size: 21px;
+            font-weight: 400;
+            text-align: left;
+            color: #6E7191;
+}
+.con__img{
+    display: flex;
+    align-items: center;
+}
+.h4__num {
+    width: 223px;
+    height: 36px;
+    top: 21.5px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.01px;
+    text-align: left;
+    color: #211F54;
+}
+.p__num {
+    width: 124px;
+    height: 18px;
+    gap: 0px;
+    margin-bottom: 10px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #6E7191;
+}
+.con__h6{
+    margin-top: 30px;
+    width: 244.8px;
+        height: 36px;
+        top: 406.44px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 36.01px;
+            text-align: left;
+            color: #211F54;
+}
+.con__par{
+    margin-top: 10px;
+    width: 445.64px;
+        height: 91px;
+        top: 451.44px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 30.01px;
+            text-align: left;
+            color: #6E7191;
+}
+.con__btn{
+    margin-top: 30px;
+font-size: 20px;
+    width: 217px;
+    height: 72px;
+    gap: 0px;
+    border: none;
+    border-radius: 14px;
+    opacity: 0px;
+}
+.con__btn:hover {
+    margin-top: 30px;
+    transition: 0.8s;
+    width: 217px;
+    height: 72px;
+    gap: 0px;
+    cursor: pointer;
+    color: white;
+    background: #0075FF;
+    border-radius: 14px;
+    opacity: 0px;
+}
+
+
+
+/* ////////////////con__from/////////////// */
+
+.con__form{
+    margin-top: 100px;
+width: 673px;
+    height: 908px;
+    gap: 0px;
+    border-radius: 16px ;
+    border: 1px solid #EFF0F6;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px 6px #14142B0A;
+}
+.contact-panel {
+    margin-top: 50px;
+}
+
+.contact-panel input {
+    width: 259px;
+        height: 72px;
+        
+       margin-top: 10px;
+        border-radius: 8px;
+        opacity: 0px;
+        background: #FFFFFF;
+        border: 1px solid #EFF0F6;
+        box-shadow: 0px 0px 6px 6px #85859214;
+}
+
+.contact-panel .row {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+.submit-row {
+    
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.contact-panel button {
+    margin-top: 30px;
+        font-size: 20px;
+        width: 217px;
+        height: 72px;
+        gap: 0px;
+        border: none;
+        border-radius: 14px;
+        opacity: 0px;
+}
+
+.contact-panel button:hover {
+    margin-top: 30px;
+        transition: 0.8s;
+        width: 217px;
+        height: 72px;
+        gap: 0px;
+        cursor: pointer;
+        color: white;
+        background: #0075FF;
+        border-radius: 14px;
+        opacity: 0px;
+}
+.textra textarea{
+   margin-top: 20px;
+    width: 551px;
+        height: 144px;
+        top: 42.44px;
+        left: -0.39px;
+        gap: 0px;
+        border-radius: 10px;
+        background: #FFFFFF;
+        border: 1px solid #EFF0F6;
+        opacity: 0px;
+        box-shadow: 0px 0px 7px 7px #14142B14;
+}
+.textra{
+    margin-top: 50px;
+    margin-left: 50px;
+}

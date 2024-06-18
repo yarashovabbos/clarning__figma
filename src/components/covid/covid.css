@@ -1,0 +1,119 @@
+.covid{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 1220px;
+        height: 676px;
+        gap: 0px;
+        border-radius: 24px;
+        opacity: 0px;
+        background: #211F54;
+        margin-left: 100px;
+}
+
+.covid h1{
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    width: 491px;
+        height: 174px;
+        top: 0.5px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 57.98px;
+            text-align: left;
+            color: #FFFFFF;
+}
+.covid h6{
+    margin-left: 50px;
+    width: 217px;
+        height: 18px;
+        top: -0.5px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 1.600000023841858px;
+            text-align: left;
+            color: #FFFFFF;
+}
+
+.covid .paro{
+    margin-top: 30px;
+    width: 474px;
+    margin-left: 50px;
+        height: 91px;
+        top: 192.5px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 30.01px;
+            text-align: left;
+            color: #FFFFFF;
+}
+
+.covid .cov{
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.btn__cov{
+    font-size: 20px;
+    width: 217px;
+        height: 72px;
+        gap: 0px;
+        border: none;
+        border-radius: 14px;
+        opacity: 0px;
+}
+.btn__cov:hover {
+    transition: 0.8s;
+    width: 217px;
+    height: 72px;
+    gap: 0px;
+    cursor: pointer;
+    color: white;
+    background: #0075FF;
+    border-radius: 14px;
+    opacity: 0px;
+}
+.p{
+    width: 124px;
+        height: 18px;
+        gap: 0px;
+        margin-bottom: 10px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 18px;
+            text-align: left;
+            color:white;
+}
+.h4{
+    width: 223px;
+        height: 36px;
+        top: 21.5px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 36.01px;
+            text-align: left;
+            color: #FFFFFF;
+}
+.vector{
+    margin-top: 150px;
+    margin-left: 90px;
+}

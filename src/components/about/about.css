@@ -1,0 +1,122 @@
+.about h2{
+    text-align: center;
+    margin-top: 200px;
+    font-family: Roboto;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 57px;
+        color: #211F54;
+        text-align: center;
+        
+}
+
+.about p{
+    /* width: 648px; */
+
+        height: 61px;
+        top: 78px;
+        left: 8px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 30.01px;
+            text-align: center;
+            color: #6E7191;
+        }
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+.blok{
+    width: 388px;
+        height: 494px;
+        gap: 0px;
+        border-radius: 16px;
+    /* border: 1px solid #EFF0F6;
+        opacity: 0px;
+        box-shadow: 0px 0px 6px 6px #2929530a; */
+}
+.blok:hover {
+    width: 388px;
+    height: 494px;
+    gap: 0px;
+    border-radius: 16px;
+    /* border: 1px solid #EFF0F6; */
+    /* opacity: 0px;
+    box-shadow: 0px 0px 15px 15px #2929530a; */
+}
+.blok img{
+   margin-left: 40px;
+}
+.blok h4{
+    margin-top: 40px;
+    width: 340px;
+        height: 36px;
+        top: 279px;
+        left: 17px;
+        gap: 0px;
+        opacity: 0px;  
+        font-family: Roboto;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 36.01px;
+            text-align: center;
+            color: #211F54;
+}
+.blok p{
+    margin-top: 20px;
+    width: 400px;
+        height: 61px;
+        top: 331px;
+        left: -19px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 30.01px;
+            text-align: center;
+            color: #6E7191;
+}
+.btn__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.btn__1 , .btn__2{
+    /* padding: 5px;
+    gap: 5px; */
+    font-size: 20px;
+    width: 214px;
+        height: 73px;
+        gap: 0px;
+        border-radius: 14px;
+        border: 1px solid #EFF0F6;
+        box-shadow: 0px 0px 6px 6px #14142B0A;
+    
+        opacity: 0px;
+}
+
+.btn__1:hover , .btn__2:hover{
+    width: 214px;
+    height: 73px;
+    gap: 0px;
+    transition: 0.8s;
+    color: white;
+    background: #0075FF;
+    border-radius: 14px ;
+    border: 1px solid #EFF0F6;;
+    opacity: 0px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 10px #2929530a;
+}
+.btn__1{
+    margin-right: 10px;
+}

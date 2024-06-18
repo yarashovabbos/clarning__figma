@@ -1,0 +1,48 @@
+.articl{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn__art{
+    font-size: 20px;
+    width: 217px;
+        height: 72px;
+        gap: 0px;
+        border: none;
+        border-radius: 14px;
+        opacity: 0px;
+}
+.jud{
+    margin-right: 20px;
+}
+.btn__art:hover {
+    transition: 0.8s;
+    width: 217px;
+    height: 72px;
+    gap: 0px;
+    cursor: pointer;
+    color: white;
+    background: #0075FF;
+    border-radius: 14px;
+    opacity: 0px;
+}
+.articl h2 {
+    width: 447px;
+        height: 58px;
+        top: 32px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 57.98px;
+            text-align: left;
+            color: #211F54;
+}
+.img__art{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

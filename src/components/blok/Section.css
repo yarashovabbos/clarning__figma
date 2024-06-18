@@ -1,0 +1,89 @@
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.section__text h1{
+width: 518px;
+    height: 148px;
+    top: -3px;
+    gap: 0px;
+    opacity: 0px;
+    color: #211F54;
+    font-family: Roboto;
+        font-size: 68px;
+        font-weight: 700;
+        line-height: 73.98px;
+        text-align: left;
+}
+.section__text .par{
+    margin-top: 29px;
+    width: 591px;
+        height: 91px;
+        top: 167px;
+        gap: 0px;
+        color: #6E7191;
+        opacity: 0px;
+        font-family: Roboto;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 30.01px;
+            text-align: left;
+}
+
+.section__img img{
+    width: 650px;
+        height: 650px;
+        left: 720px;
+        gap: 0px;
+        opacity: 0px;
+}
+.colc{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* gap: 10px; */
+    margin-top: 20px;
+}
+.colc button{
+    width: 217px;
+        height: 72px;
+        gap: 0px;
+        font-size: 18px;
+        border-radius: 14px ;
+        opacity: 0px;
+}
+.colc button:hover {
+    width: 217px;
+    height: 72px;
+    gap: 0px;
+    color: white;
+    font-size: 18px;
+    border-radius: 14px;
+    opacity: 0px;
+    cursor: pointer;
+    transition: 0.8s;
+    background: #0075FF;
+}
+.colc img{
+    margin-left: 10px;
+}
+.colc .number{
+    margin-left: 10px;
+}
+.number p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: left;
+    color: #211F54;
+}
+.number h4{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30.01px;
+    text-align: left;
+}
