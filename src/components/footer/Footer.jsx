@@ -1,14 +1,11 @@
-import './footer.css'
+import  { Component } from 'react'
 
-const Footer = () => {
-  return (
-    <div className='container'>
-        <div className="footer">
-            <img src="src/components/footer/img/Frame (3).png" alt="#" />
-        </div>
-
-    </div>
-  )
+export class Footer extends Component {
+  render() {
+    return (
+      <div className='container'><img src="public/footer (2).png" alt="" /></div>
+    )
+  }
 }
 
 export default Footer

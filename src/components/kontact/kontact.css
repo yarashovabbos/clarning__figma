@@ -1,0 +1,118 @@
+.contact {
+    padding-top: 40px;
+    background-image: url('../../../public/bg1\ 1.jpg ');
+ width: 100%;
+    height: 527px;
+    top: 80px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+                                                                                                                                                    
+}
+
+@media (max-width: 376px) {
+    .contact {
+        padding: 30px 10px;
+    }
+
+    .contact-content {
+        padding: 10px;
+    }
+}
+.cont{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont__blok .p__1{
+width: 290px;
+    height: 13px;
+    top: 242px;
+    left: 116px;
+    gap: 0px;
+    opacity: 0px;
+        font-family: Montserrat,sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: left;
+        color: #2C2D2E;
+}
+
+.cont__blok .h1__1{
+    margin-top: 20px;
+    width: 300px;
+        height: 40px;
+        top: 271px;
+        left: 116px;
+        gap: 0px;
+        opacity: 0px;
+            font-family: Montserrat ,sans-serif;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 40px;
+            text-align: left;
+            color: #2C2D2E;
+}
+
+.cont__blok .p__2{
+    margin-top: 20px;
+    width: 482px;
+        height: 69px;
+        top: 328px;
+        left: 116px;
+        gap: 0px;
+        opacity: 0px;
+            font-family: Montserrat,sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: left;
+}
+.cont__btn{
+    margin-top: 20px;
+    width: 102px;
+        height: Hug (40px)px;
+        top: 413px;
+        left: 116px;
+        border: 1px solid #ec1212;
+        padding: 10px 20px ;
+        gap: 10px;
+       
+        background-color: #fff;
+        border-radius: 4px;
+        opacity: 0px;
+}
+.cont__btn:hover {
+    margin-top: 20px;
+    width: 102pxpx;
+    height: Hug (40px)px;
+    top: 413px;
+    left: 116px;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: #EF7C00;
+}
+.cont__img{
+    margin-top: 100px;
+}
+.product__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.pass{
+    margin-left: 200px;
+}
+

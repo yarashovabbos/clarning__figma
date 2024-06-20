@@ -1,37 +1,106 @@
-import './header.css';
+import { Component } from 'react'
+import './header.css'
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeDropdown: null
+    };
+  }
 
-const Header = () => {
-  return (
-        <div className="container" >
-           <header className="header">
-            <div className="logo">
-              <img src="src/components/header/img/IMAGE (6).png" alt="#" />
-            </div>
-            <nav className="nav">
-              <ul className="nav__list">
-                <li className="nav__item">
-                  <a className="nav__link" href="#">Home</a>
-                </li>
-                <li className="nav__item">
-                  <a className="nav__link" href="#">About</a>
-                </li>
-                <li className="nav__item">
-                  <a className="nav__link" href="#">Services</a>
-                </li>
-                <li className="nav__item">
-                  <a className="nav__link" href="#">Articles</a>
-                </li>
-                <li className="nav__item">
-                  <a className="nav__link" href="#">Contact</a>
-                </li>
-              </ul>
-            </nav>
-            <div className="buud">
-              <a className="nav__link" href="#">Cart (0)</a>
-              <button className='btn__nav'>Get a free quote</button>
-            </div>
-           </header>
-        </div>
-  )
+  handleDropdownClick(menu) {
+    this.setState((prevState) => ({
+      activeDropdown: prevState.activeDropdown === menu ? null : menu
+    }));
+  }
+
+  render() {
+    const { activeDropdown } = this.state;
+
+    return (
+      <div className="container">
+      <header className="header">
+        <div className="logo"><img src="public/logo (2).png" alt="" /></div>
+        <nav className="nav">
+          <ul>
+            <li onClick={() => this.handleDropdownClick('Продукция')}>
+              Продукция
+              {activeDropdown === 'Продукция' && (
+                <ul className="dropdown">
+                  <li>Ламинатные тубы</li>
+                  <li>Экструзионные тубы</li>
+                  <li>Другая упаковка</li>
+                </ul>
+              )}
+            </li>
+            <li onClick={() => this.handleDropdownClick('Сертификаты')}>
+              Сертификаты
+              {activeDropdown === 'Сертификаты' && (
+                <ul className="dropdown">
+                  <li>Ламинатные тубы</li>
+                  <li>Экструзионные тубы</li>
+                  <li>Другая упаковка</li>
+                </ul>
+              )}
+            </li>
+            <li onClick={() => this.handleDropdownClick('Наша команда')}>
+              Наша команда
+              {activeDropdown === 'Наша команда' && (
+                <ul className="dropdown">
+                  <li>Ламинатные тубы</li>
+                  <li>Экструзионные тубы</li>
+                  <li>Другая упаковка</li>
+                </ul>
+              )}
+            </li>
+            <li onClick={() => this.handleDropdownClick('О нас')}>
+              О нас
+              {activeDropdown === 'О нас' && (
+                <ul className="dropdown">
+                 <li>Ламинатные тубы</li>
+                  <li>Экструзионные тубы</li>
+                  <li>Другая упаковка</li>
+                </ul>
+              )}
+            </li>
+            <li onClick={() => this.handleDropdownClick('Новости')}>
+              Новости
+              {activeDropdown === 'Новости' && (
+                <ul className="dropdown">
+                  <li>Ламинатные тубы</li>
+                  <li>Экструзионные тубы</li>
+                  <li>Другая упаковка</li>
+                </ul>
+              )}
+            </li>
+            <li onClick={() => this.handleDropdownClick('Вакансии')}>
+              Вакансии
+              {activeDropdown === 'Вакансии' && (
+                <ul className="dropdown">
+                 <li>Ламинатные тубы</li>
+                  <li>Экструзионные тубы</li>
+                  <li>Другая упаковка</li>
+                </ul>
+              )}
+            </li>
+            <li onClick={() => this.handleDropdownClick('Контакты')}>
+              Контакты
+              {activeDropdown === 'Контакты' && (
+                <ul className="dropdown">
+                  <li>Ламинатные тубы</li>
+                  <li>Экструзионные тубы</li>
+                  <li>Другая упаковка</li>
+                </ul>
+              )}
+            </li>
+          </ul>
+        </nav>
+        <button className='hed__btn'>
+            <img src="public/language.png" alt="" />
+        </button>
+      </header>
+      </div>
+    );
+  }
 }
 export default Header
